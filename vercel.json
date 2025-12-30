@@ -8,6 +8,10 @@
     {
       "src": "api/**/*.php",
       "use": "vercel-php@0.7.1"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
